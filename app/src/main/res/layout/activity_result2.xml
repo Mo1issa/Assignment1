@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rb"
+    tools:context=".activity_result">
+
+    <TextView
+        android:id="@+id/actTxt"
+        style="@style/TextViewStyle1"
+        android:layout_marginTop="10dp"
+        android:text="@string/the_subject_name"
+        android:textColor="#43A047"
+
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:id="@+id/scrollBar"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+
+        android:layout_marginBottom="200dp"
+
+        android:layout_weight="1"
+        android:background="#FFFCFC"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/scrolltxt"
+            style="@style/TextViewStyle1"
+            android:textSize="20sp"
+            android:textColor="#000B00"
+            />
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

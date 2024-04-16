@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greens"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/edtName"
+        style="@style/TextViewStyle2"
+        android:layout_marginTop="100dp"
+        android:text="Welcome!"
+        android:textColor="#43A047"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/btnVocabulary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        style="@style/TextViewStyle2"
+        android:layout_marginTop="40dp"
+        android:text="Ready To LEARN English?"
+        android:textColor="#43A047"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@id/btnVocabulary" />
+
+    <TextView
+        android:id="@+id/choosetxt"
+        style="@style/TextViewStyle2"
+        android:layout_marginTop="70dp"
+        android:text="Choose an Option :"
+        android:textColor="#43A047"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/btnVocabulary" />
+
+
+    <Button
+        android:id="@+id/btnVocabulary"
+        style="@style/CentralizedButton"
+        android:layout_marginTop="60dp"
+        android:text="Vocabulary"
+        android:layout_height="50dp"
+        />
+
+    <Button
+        android:id="@+id/btnGrammar"
+        style="@style/CentralizedButton"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:text="Grammar"
+       />
+    <Button
+        android:id="@+id/btnQuiz"
+        android:text="Quiz"
+        style="@style/CentralizedButton"
+        android:onClick="startQuizActivity"
+        android:layout_marginTop="50dp"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

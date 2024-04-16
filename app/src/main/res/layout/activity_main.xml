@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        style="@style/TextViewStyle1"
+        android:layout_marginTop="30dp"
+        android:text="LET's LEARN WITH MO"
+        android:textColor="#43A047"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextViewStyle2"
+        android:layout_marginTop="100dp"
+        android:text="Enter your Name :"
+        android:textColor="#43A047" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:hint="Name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/TextViewStyle2"
+        android:layout_marginTop="20dp"
+        android:text="Enter your Age :"
+        android:textColor="#43A047" />
+
+    <EditText
+        android:id="@+id/edtAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/TextViewStyle2"
+        android:layout_marginTop="20dp"
+        android:text="Choose your Education :"
+        android:textColor="#43A047" />
+
+    <Spinner
+        android:id="@+id/spnEdu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnSub"
+        style="@style/CentralizedButton"
+        android:layout_marginTop="80dp"
+        android:ellipsize="marquee"
+        android:text="Submit"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

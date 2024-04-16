@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Learn with MO</string>
+    <string name="a_mammals">A) Mammals</string>
+    <string name="grade_a">Grade: A+</string>
+    <string name="submit">Submit</string>
+    <string name="a_vegetables">A) Vegetables</string>
+    <string name="c_seeds">C) Seeds</string>
+    <string name="c_birds">C) Birds</string>
+    <string name="b_fruits">B) Fruits</string>
+    <string name="a_verbs">A) Verbs</string>
+    <string name="b_adjectives">B) Adjectives</string>
+    <string name="d_leaves">D) Leaves</string>
+    <string name="d_pronouns">D) Pronouns</string>
+    <string name="c_adverbs">C) Adverbs</string>
+    <string name="a_verb_tenses">A) Verb Tenses</string>
+    <string name="b_nouns">B) Nouns</string>
+    <string name="c_adverbs2">C) Adverbs</string>
+    <string name="b_reptiles">B) Reptiles</string>
+    <string name="d_pronouns2">D) Pronouns</string>
+    <string name="a_pronouns">A) Pronouns</string>
+    <string name="b_verbs">B) Verbs</string>
+    <string name="c_adjectives">C) Adjectives</string>
+    <string name="q2_what_are_the_mature_ovaries_of_one_or_more_flowers_called">Q2. What are the mature ovaries of one or more flowers called?</string>
+    <string name="q1_what_are_animals_that_form_the_kingdom_animalia_called">Q1. What are animals that form the kingdom Animalia called?</string>
+    <string name="d_nouns">D) Nouns</string>
+    <string name="q3_what_is_the_term_for_words_that_describe_or_modify_nouns_and_pronouns">Q3. What is the term for words that describe or modify nouns and pronouns?</string>
+    <string name="q4_what_is_the_term_for_the_time_at_which_an_action_takes_place">Q4. What is the term for the time at which an action takes place?</string>
+    <string name="q5_what_are_words_that_can_function_as_a_noun_phrase_called">Q5. What are words that can function as a noun phrase called?</string>
+    <string name="quize">Quize</string>
+    <string name="_00_00">00:00</string>
+    <string name="d_animals">D) Animals</string>
+    <string name="the_subject_name">The subject Name :</string>
+    <string name="be_carfull">Be Carfull :</string>
+</resources>

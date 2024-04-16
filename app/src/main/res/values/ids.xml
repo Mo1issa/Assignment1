@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="scrolltxt" type="id" />
+    <item name="scrollBar" type="id" />
+    <item name="question1TextView" type="id" />
+    <item name="question1RadioGroup" type="id" />
+    <item name="option1_1RadioButton" type="id" />
+    <item name="option1_2RadioButton" type="id" />
+    <item name="option1_3RadioButton" type="id" />
+    <item name="option1_4RadioButton" type="id" />
+    <item name="question2TextView" type="id" />
+    <item name="question2RadioGroup" type="id" />
+    <item name="option2_1RadioButton" type="id" />
+    <item name="option2_2RadioButton" type="id" />
+    <item name="option2_3RadioButton" type="id" />
+    <item name="option2_4RadioButton" type="id" />
+</resources>

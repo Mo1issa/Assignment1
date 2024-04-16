@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/betxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/be_carfull"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/betxt">
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Question 1 -->
+        <TextView
+            android:id="@+id/testTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:text="@string/quize"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_margin="20dp" />
+        <!-- Question 1 -->
+        <TextView
+            android:id="@+id/question1TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q1_what_are_animals_that_form_the_kingdom_animalia_called"
+            android:layout_margin="16dp" />
+
+        <RadioGroup
+            android:id="@+id/question1RadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Options for Question 1 -->
+            <RadioButton
+                android:id="@+id/option1_1RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_mammals" />
+
+            <RadioButton
+                android:id="@+id/option1_2RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_reptiles" />
+
+            <RadioButton
+                android:id="@+id/option1_3RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c_birds" />
+
+            <RadioButton
+                android:id="@+id/option1_4RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_animals" />
+        </RadioGroup>
+
+        <!-- Question 2 -->
+        <TextView
+            android:id="@+id/question2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q2_what_are_the_mature_ovaries_of_one_or_more_flowers_called"
+            android:layout_margin="16dp" />
+
+        <RadioGroup
+            android:id="@+id/question2RadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Options for Question 2 -->
+            <RadioButton
+                android:id="@+id/option2_1RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_vegetables" />
+
+            <RadioButton
+                android:id="@+id/option2_2RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_fruits" />
+
+            <RadioButton
+                android:id="@+id/option2_3RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c_seeds" />
+
+            <RadioButton
+                android:id="@+id/option2_4RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_leaves" />
+        </RadioGroup>
+
+        <!-- Question 3 -->
+        <TextView
+            android:id="@+id/question3TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q3_what_is_the_term_for_words_that_describe_or_modify_nouns_and_pronouns"
+            android:layout_margin="16dp" />
+
+        <RadioGroup
+            android:id="@+id/question3RadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option3_1RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_verbs" />
+
+            <RadioButton
+                android:id="@+id/option3_2RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_adjectives" />
+
+            <RadioButton
+                android:id="@+id/option3_3RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c_adverbs"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+
+            <RadioButton
+                android:id="@+id/option3_4RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_pronouns"
+                tools:ignore="DuplicateSpeakableTextCheck" />
+        </RadioGroup>
+
+        <!-- Question 4 -->
+        <TextView
+            android:id="@+id/question4TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q4_what_is_the_term_for_the_time_at_which_an_action_takes_place"
+            android:layout_margin="16dp" />
+
+        <RadioGroup
+            android:id="@+id/question4RadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option4_1RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_verb_tenses" />
+
+            <RadioButton
+                android:id="@+id/option4_2RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_nouns" />
+
+            <RadioButton
+                android:id="@+id/option4_3RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c_adverbs2" />
+
+            <RadioButton
+                android:id="@+id/option4_4RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_pronouns2" />
+        </RadioGroup>
+
+        <!-- Question 5 -->
+        <TextView
+            android:id="@+id/question5TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q5_what_are_words_that_can_function_as_a_noun_phrase_called"
+            android:layout_margin="16dp" />
+
+        <RadioGroup
+            android:id="@+id/question5RadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/option5_1RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_pronouns" />
+
+            <RadioButton
+                android:id="@+id/option5_2RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/b_verbs" />
+
+            <RadioButton
+                android:id="@+id/option5_3RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/c_adjectives" />
+
+            <RadioButton
+                android:id="@+id/option5_4RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d_nouns" />
+        </RadioGroup>
+    <Button
+        android:id="@+id/btnSub2"
+        style="@style/CentralizedButton"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp"
+        android:ellipsize="marquee"
+        android:text="@string/submit"
+        />
+</LinearLayout>
+</ScrollView>
+    <!-- Grading Mark -->
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/grade_a"
+        android:textColor="#DA0B0B"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+</RelativeLayout>
